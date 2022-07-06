@@ -1,7 +1,9 @@
+import Main from "../../components/main";
+
 function Netflix() {
     return (
         <>
-            Netflix
+            <Main />
         </>
     );
 };
