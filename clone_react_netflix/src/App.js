@@ -1,13 +1,13 @@
 import React from 'react'
+import Netflix from './pages/netflix';
 
-
-function Hello(){
+function App(){
     return(
-        <div>
-           
-        </div>
+        <>
+           <Netflix />
+        </>
     )
 }
 
 
-export default Hello;
+export default App;
