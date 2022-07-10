@@ -1,7 +1,24 @@
-const Sidebar = () => {
+
+ import * as S from './style.js'
+
+
+ const Sidebar = () => {
     return(
         <>
-            Sidebar
+            <S.Content>
+                <S.List>
+                    <S.ListItem>
+                        <S.ImageIcon src="./assets/icons/search-icon.svg" alt='icon' />
+                    </S.ListItem>
+
+                    <S.ListItem>
+                        <S.ImageIcon src="./assets/icons/search-icon.svg" alt='icon' />
+                    </S.ListItem>
+                    <S.ListItem>
+                        <S.ImageIcon src="./assets/icons/search-icon.svg" alt='icon' />
+                    </S.ListItem>
+                </S.List>
+            </S.Content>
         </>
     )
 };
