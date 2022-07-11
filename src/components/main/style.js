@@ -1,23 +1,20 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    // background:red;
     height:100vh;
     width:100%;
-    background:#332424;
     color:white;
+    margin-left:10rem;
 `;
 
 export const Content = styled.div`
-    // background:blue;
+
 `;
 
 export const DescribeMovie = styled.div`
-    // background:gray;
     display:flex;
     justify-content:space-between;
-    // margin:1rem 2rem;
-    width:80vw;
+    width:85vw;
     margin:1rem 2rem;
     align-items:center;
 `;
@@ -34,31 +31,51 @@ font-size:1rem;
 `;
 
 export const  BannerImage = styled.img`
-    // background:gray;
-`;
 
+`;
 
 // movies
 export const ContentMovies = styled.div`
-    // background:green;
     margin:0 2rem;
+    width:85vw;
 `
 
 export const CardMovies = styled.div`
-    // background:purple;
-    // margin:0 2rem;
+    display:flex;
+    flex-wrap:wrap;
 `
 
 export const Card = styled.div`
-    // background:orange;
-    // display:flex;
-    // margin:0 2rem;
-    // width:25vw;
-    // height:15vh;
-    margin-left:-1rem;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
 `
 
+export const DivCard = styled.div`
+    display:flex;
+    flex-direction:column;
+    margin:0 0.55rem;
+`;
+
 export const ImageCardMovie = styled.img`
-    margin:1rem 1rem;
-    // padding:0 1rem;
+    height:32vh;
+    width:20vw;
+    margin:1rem 0;
+`;
+
+export const Button = styled.button`
+    height:5vh;
+    width:20vw;
+    background:#8257E6;
+    color:white;
+    text-align:center;
+    border:0;
+    border-radius:5px;
+    cursor:pointer;
+    outline:none;
+    font-size:1.12rem;
+    
+    &:hover{
+        background:#536b95;
+    }
 `;
