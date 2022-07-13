@@ -79,3 +79,21 @@ export const Button = styled.button`
         background:#536b95;
     }
 `;
+
+// List
+export const List = styled.ul`
+    list-style:none;
+    display:flex;
+    margin:2rem auto;
+    align-items:center;
+`;
+
+export const Li = styled.li`
+    margin:0 1rem;
+    border:0;
+    border-radius:10px;
+    background:#8257E6;
+    text-align:center;
+    padding:0.75rem;
+    cursor:pointer;
+`;

@@ -60,6 +60,23 @@ export default function Main() {
                                 })
                             }
                         </S.Card>
+                        <S.List>
+                            <S.Li>
+                                1
+                            </S.Li>
+                            <S.Li>
+                                2
+                            </S.Li>
+                            <S.Li>
+                                3
+                            </S.Li>
+                            <S.Li>
+                                4
+                            </S.Li>
+                            <S.Li>
+                                >>
+                            </S.Li>
+                        </S.List>
                     </S.CardMovies>
 
                 </S.ContentMovies>
